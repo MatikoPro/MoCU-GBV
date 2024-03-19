@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".one_time_register.one_time_register">
 
-
+<!-- language seletion text view -->
     <TextView
         android:id="@+id/language_selection_tittle"
         android:layout_width="match_parent"
@@ -30,6 +30,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- language seletion radiobuttons options -->
 
 
     <LinearLayout
@@ -115,8 +117,11 @@
             android:background="@color/purple_700" />
     </LinearLayout>
 
+    <!--end od language seletion radio button options -->
+
 
     <Button
+        android:id="@+id/Continuebtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
