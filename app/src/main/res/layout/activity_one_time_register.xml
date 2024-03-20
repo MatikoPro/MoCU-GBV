@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+   android:background="@color/white"
     android:layout_height="match_parent"
     tools:context=".one_time_register.one_time_register">
 
@@ -14,6 +15,7 @@
         android:layout_marginHorizontal="15dp"
         android:layout_marginTop="50dp"
         android:gravity="center"
+        android:textColor="@color/black"
         android:text="Please choose your languange!"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,10 +25,10 @@
 
     <ImageView
         android:id="@+id/image_language"
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="200dp"
         android:layout_marginTop="80dp"
-        android:src="@drawable/language_selection_img"
+        android:src="@drawable/languageimage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -49,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="1dp"
             android:layout_marginHorizontal="15dp"
-            android:background="@color/purple_700" />
+            android:background="@color/blue" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -68,6 +70,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="English"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
@@ -81,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginHorizontal="15dp"
-            android:background="@color/purple_700" />
+            android:background="@color/blue" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -100,6 +103,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Kiswahili"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
@@ -114,7 +118,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginHorizontal="15dp"
-            android:background="@color/purple_700" />
+            android:background="@color/blue" />
     </LinearLayout>
 
     <!--end od language seletion radio button options -->
@@ -122,16 +126,18 @@
 
     <Button
         android:id="@+id/Continuebtn"
+        android:layout_margin="15dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginHorizontal="15dp"
-        android:backgroundTint="@color/purple_800"
+        android:backgroundTint="@color/blue"
         app:cornerRadius="100dp"
         android:textAllCaps="false"
         app:layout_constraintVertical_bias="1.0"
         app:layout_constraintHorizontal_bias="1.0"
         android:text="Continue"
         android:textColor="@color/white"
+        android:drawableRight="@drawable/continue_ic_24"
         android:layout_marginBottom="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
